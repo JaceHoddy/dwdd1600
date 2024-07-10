@@ -72,7 +72,7 @@ a:hover{
     float: right;
     width:50%;
     height: auto;
-
+    display: block;
 }
 .snowboard-image img {
     width: 100%;
