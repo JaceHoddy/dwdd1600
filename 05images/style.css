@@ -74,9 +74,9 @@ a:hover{
     height: auto;
 }
 .snowboard-image img {
+    border-radius: 10px 10px 0 0;
     width: 100%;
-    display: block;
-
+    display: block; 
 }
 footer {
     clear: both;
