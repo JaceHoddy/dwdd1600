@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jace Hoddy" />
+    <meta
+      name="description"
+      content="I want to draw snowboarders in with trending products and visually
+    appealing pages the one shop stop for everything snowboarding."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shredders Magazine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="page-header">
+      <h1>Shredders Magazine</h1>
+      <p>A shop for all things snowboarding</p>
+      <nav>
+        <ul>
+          <li><a href="../06form/about.html">About</a></li>
+          <li><a href="../06form/index.html">Wax article</a></li>
+          <li><a href="../06form/about.html">Gallery</a></li>
+          <li><a href="../06form/subscription.html" class="selected">Subscription</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <hr />
+    <br />
+    <main>
+        <form method="get" class="myForm" action="thanks.html">
+            <fieldset class="c-info">
+                <legend>
+                    Contact information
+                </legend>
+                <label>
+                    Full name
+                    <input type="text" name="Full name" required>
+                </label>
+                <label>
+                    Email address
+                    <input type="email" name="Email address" required>
+                </label>
+                <label>
+                    Cell number
+                    <input type="tel" name="Cell number" required placeholder="123-456-7890">
+                </label>
+            </fieldset>
+            <fieldset class="align-options">
+              <legend>
+                Deliverables
+              </legend>
+
+                <label>
+                  <input type="checkbox" value="chosen" name="magazine">
+                  Magazine
+                </label>
+                <label>
+                  <input type="checkbox" value="chosen" name="merch">
+                  Merch
+                </label>
+                <label>
+                  <input type="checkbox" value="chosen" name="stickers">
+                  Stickers
+                </label>
+            </fieldset>
+            <fieldset class="align-options">
+              <legend>
+                Delivery model
+              </legend>
+              <label>
+                <input type="radio" name="model" value="email">
+                Send me emails of magazines
+              </label>
+              <label>
+                <input type="radio" name="model" value="mail">
+                Send me magazines through the mail
+              </label>
+              <label>
+                <input type="radio" name="model" value="premium">
+                Send me magazines through drone
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>
+                Merch options
+              </legend>
+              <label>
+                <select name="merch">
+                  <option value="none">
+                    Please select...
+                  </option>
+                  <option value="beanie">
+                    Beanie
+                  </option>
+                  <option value="wax">
+                    Wax
+                  </option>
+                  <option value="shirt">
+                    Shirt
+                  </option>
+                </select>
+              </label>
+            </fieldset>
+            <label class="feedback">
+              Feedback:
+              <textarea name="feedback"></textarea>
+            </label>
+            <input type="submit" value="subscription request">
+        </form>
+
+    </main>
+    <br />
+    <hr />
+    <br />
+    <footer>
+      <h3>Shredders magazine&copy;</h3>
+      &bull;
+      <address>123 E Hollow road</address>
+      <a href="mailto:11004395@uvu.edu">mail me</a>
+      <a href="tel:+8017000987">call me</a>
+      <br />
+      <a href="#page-header">back to top</a>
+    </footer>
+    </body>
+</html>
