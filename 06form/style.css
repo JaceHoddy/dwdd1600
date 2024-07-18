@@ -159,7 +159,6 @@ select:focus {
     background-color: #E8F0FE;
 }
 .align-options {
-    /* align-items: center; */
     display: flex;
     flex-flow: column wrap;
 }
@@ -172,7 +171,6 @@ textarea {
 }
 .feedback {
     display: flex;
-    /* align-items: center; */
     gap: 10px;
     flex-flow: column wrap;
 }
