@@ -110,6 +110,7 @@ figcaption {
     border-radius: 5px;
     border: 1px solid #9BC0D9;
     background-color: white;
+    width: 10rem;
 }
 .c-info {
     display: flex;
@@ -118,7 +119,7 @@ figcaption {
 }
 .c-info label {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     gap: 10px;
 }
 .c-info label input:focus {
@@ -158,17 +159,20 @@ select:focus {
     background-color: #E8F0FE;
 }
 .align-options {
+    /* align-items: center; */
     display: flex;
-    align-items: center;
+    flex-flow: column wrap;
 }
 textarea {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #9BC0D9;
     background-color: white;
+    width: 10rem;
 }
 .feedback {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 10px;
+    flex-flow: column wrap;
 }
