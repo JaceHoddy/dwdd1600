@@ -111,6 +111,7 @@ figcaption {
     border: 1px solid #9BC0D9;
     background-color: white;
     width: 10rem;
+
 }
 .c-info {
     display: flex;
@@ -121,6 +122,7 @@ figcaption {
     display: flex;
     flex-flow: column wrap;
     gap: 10px;
+    /* adding this comment to check changes */
 }
 .c-info label input:focus {
     background-color: #E8F0FE;
